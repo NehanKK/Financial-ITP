@@ -630,16 +630,10 @@ public class MAIN extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-     MessageFormat header =new MessageFormat("Financial Report");
-     MessageFormat footer =new MessageFormat("Bio Food"); 
-     
-     try
-     {
-       tablebox.print(JTable.PrintMode.FIT_WIDTH, header, footer);
-       
-     }  catch (PrinterException ex) {
-           JOptionPane.showMessageDialog(null, "Cannot Print" +ex.getMessage());
-        }
+        NEWWIDOW ne=  new NEWWIDOW();
+        ne.setVisible(true);
+        this.setVisible(false);
+        
       
     }//GEN-LAST:event_jButton6ActionPerformed
 

@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package employee_system;
+package itproject;
 
 import com.mysql.jdbc.Connection;
 import java.awt.Container;
