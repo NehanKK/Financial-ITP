@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package itproject;
+package employee_system;
 
 import com.mysql.jdbc.Connection;
 import java.awt.Container;
@@ -29,10 +29,9 @@ public class ReportView extends JFrame
     public ReportView(String fileName, HashMap para)
     {
         super("ABC Solutions Employee/Project Management System (Report Viewer)");
-           
-        java.sql.Connection con = null;
-        PreparedStatement pst = null;
-        con= DATABASE.connect();
+             Connection con = null;
+              PreparedStatement pst = null;
+                con= DATABASE.connect();
 
         try
         {
